@@ -104,8 +104,10 @@ main{
 }
 
 .sosal-icon{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+
 }
 
 /* Popular Collection style */
@@ -144,12 +146,33 @@ main{
 .item-price{
     font-size: 1em;
     font-weight: 400;
+    color: var(--senders-color);
+    font-weight: bold;
 }
 .tem-text{
     color: var(--primary-color);
     font-size: 0.2em;
     font-weight: 700;
 }
+/* Featured-contenar style */
+
+.Featured-contenar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Featured-titel{
+    color: #0A0826;
+    font-size: 2em;
+    font-weight: 700;
+
+
+}
+
+
+
 /*  X-Small devices (portrait phones, less than 576px)*/
 @media screen and (max-width: 575.98px) {
     header {
@@ -226,8 +249,9 @@ main{
 /* mani style */
 .sosal-icon{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    justify-content: center;
 
 }
 
