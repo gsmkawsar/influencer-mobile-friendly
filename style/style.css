@@ -68,7 +68,7 @@ nav img{
 .header-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
     background-image: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
     background-position: right;
@@ -106,6 +106,7 @@ main{
 .sosal-icon{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
 
 
 }
@@ -158,9 +159,10 @@ main{
 
 .Featured-contenar{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     margin-top: 40px;
+
 }
 
 .Featured-titel{
@@ -199,19 +201,31 @@ main{
 }  
 
 /* mani style */
+main{
+    padding: 0px 20px ;
+}
 .sosal-icon{
     padding: 0px 0px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 /* Popular Collection style */
 
 .Popular-continuer{
     grid-template-columns: repeat(1, 1fr);
-
+    grid-template-columns: max-content;
 }
+/* Featured-contenar style */
 
+.Featured-contenar{
+    flex-direction: column-reverse;
+
+   
+}
+.Featured-contenar img{
+    margin-top: 20px;
+}
 } 
 
 
@@ -261,3 +275,10 @@ main{
     grid-template-columns: repeat(2, 1fr);
     
 }  
+.Featured-contenar{
+    flex-direction: column-reverse;
+}
+.Featured-contenar img{
+    margin-top: 20px;
+}
+} 
