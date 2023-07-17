@@ -1,0 +1,91 @@
+/* Font Style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #3A3A3A;
+    --senders-color: #E02C6D;
+}
+
+.btn-prymary{
+    background-color: var(--senders-color);
+    padding: 10px 24px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* Nav section Style */
+header{
+    padding: 20px 120px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav h3{
+    color: var(--primary-color);
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+
+}
+nav a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+nav li {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+nav img{
+    width: 20px;
+    margin-right: 30px;
+}
+
+/* Header Container Style */
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 50px;
+    
+}
+
+.header-box{
+    width: 440px;
+    height: 306px;
+}
+.header-titel{
+    color: var(--primary-color);
+    color: #3A3A3A;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.header-descripton{
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: 600;
+
+}
